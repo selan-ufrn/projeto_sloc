@@ -4,7 +4,7 @@ O GitHub Classroom (GHC) não oferece um mecanismo integrado para alterar **todo
 
 Dessa forma é possível editar/atualizar a descrição desse projeto e código de suporte, se necessário, sem que seja necessário replicar manualmente essa alteração em cada repositório individual do GHC.
 
-Nesse documento vamos chamar este repositório (derivado do GHC) de repositório **Implementação Sloc**. Já a descrição do projeto e código de suporte está localizada em um _repositório externo_ chamado de [**Descrição Sloc**](https://github.com/selan-ufrn/projeto_sloc).
+Nesse documento vamos chamar este repositório (derivado do GHC) de repositório **Implementação Sloc**. Já a descrição do projeto e código de suporte está localizada em um _repositório externo_ chamado de [**Descrição Sloc**](https://github.com/selan-ufrn/projeto_sloc_code).
 
 A vantagem desse esquema organizacional, separando a descrição do projeto da implementação, é que se for necessário atualizar algo na descrição eu o farei _uma vez_ no repositório **Descrição Sloc** e vocês simplesmente baixam a nova atualização com comandos simples como `git pull`. Para continuarmos a nos beneficiar do sistema de acompanhamento de código e troca de mensagens via _pull request_ com o _branch_ `feedback` ou via a criação de _issues_, você continuará a trabalhar no repositório **Implementação Sloc** que é monitorado pelo GHC. Portanto o procedimento (de integração) a ser seguido é o seguinte:
 
